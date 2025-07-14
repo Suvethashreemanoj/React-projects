@@ -38,20 +38,3 @@ src/
 ├── ToDo.js # Main To-Do List component
 ├── index.js
 └── styles.css # Clean and aesthetic styles
-
-### Installation
-
-1. Clone the repository:
-   sh
-   git clone https://github.com/Suvethashreemanoj/React-movieSearch.git
-   cd React-movieSearch/frontend
-
-2. Install dependencies:
-   sh
-   npm install
-   
-
-### Running the App
-sh
-npm run dev
-
