@@ -24,14 +24,14 @@ This project is perfect for learning:
 
 ---
 
-## 🛠Tech Stack
+## Tech Stack
 
 - **React** (with hooks)
 - **CSS** (flexbox, transitions, clean styling)
 
 ---
 
-## 📂 Project Structure
+## Project Structure
 
 src/
 ├── App.js
