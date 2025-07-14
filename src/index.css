@@ -1,0 +1,123 @@
+*{
+ font-family: jetbrains-mono, monospace;
+}
+.todolist {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 90%;
+    max-width: 600px;
+    min-height: 500px;
+    background: linear-gradient(135deg, #d8bfd8, #f5e6f5);
+    border-radius: 30px;
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+    padding: 30px 20px;
+    margin: 70px auto;
+    transition: transform 0.3s ease;
+}
+
+.todolist:hover {
+    transform: translateY(-5px);
+}
+
+.add-task-btn {
+    padding: 12px 24px;
+    border: none;
+    border-radius: 8px;
+    background-color: #3d3d3d;
+    color: #ffffff;
+    font-weight: 600;
+    cursor: pointer;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s, transform 0.2s;
+    margin: 20px 0;
+}
+
+.add-task-btn:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-2px);
+}
+
+.task-input {
+    padding: 12px 20px;
+    border-radius: 25px;
+    border: 2px solid #d8bfd8;
+    background-color: #fdfaf7;
+    font-size: 16px;
+    width: 80%;
+    max-width: 400px;
+    box-shadow: inset 0 2px 4px rgba(0, 0, 0, 0.05);
+    margin-bottom: 20px;
+}
+
+.task-list {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    width: 100%;
+    max-width: 500px;
+    background-color: #fdfaf7;
+    border-radius: 20px;
+    padding: 20px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+ol {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    width: 100%;
+}
+
+li {
+    padding: 12px 20px;
+    background-color: #e6d3e6;
+    border-radius: 12px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: background-color 0.3s, transform 0.2s;
+
+}
+
+li:hover {
+    background-color: #d8bfd8;
+}
+
+.button-group {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: flex-end;
+    gap: 12px; /* Increased spacing between buttons */
+}
+
+
+.delete-btn {
+    font-weight: 600;
+    margin-right: 8px;
+    padding: 10px 13px;
+    border: none;
+    border-radius: 6px;
+    background-color: thistle;
+    border-color: #3d3d3d;
+    border-style: solid;
+    border-width: 1px;
+    color: white;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.3s, transform 0.2s;
+}
+
+.delete-btn:hover {
+    background-color: #3d3d3d;
+    transform: translateY(-2px);
+}
+
+.tasks{
+    flex: 1;
+}
+
+body{
+    background-color:#3d3d3d;
+}
