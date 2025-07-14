@@ -1,10 +1,10 @@
-# 📝 React To-Do List
+# React To-Do List
 
 A **clean, interactive To-Do List built with React** that allows you to:
-✅ Add tasks  
-✅ Delete tasks  
-✅ Move tasks up  
-✅ Move tasks down
+ -Add tasks  
+ -Delete tasks  
+ -Move tasks up  
+ -Move tasks down
 
 This project is perfect for learning:
 - React state management (`useState`)
@@ -14,7 +14,7 @@ This project is perfect for learning:
 
 ---
 
-## 🚀 Features
+## Features
 
 - Add new tasks easily with input and button.
 - Delete tasks with a single click.
@@ -24,7 +24,7 @@ This project is perfect for learning:
 
 ---
 
-## 🛠️ Tech Stack
+## 🛠Tech Stack
 
 - **React** (with hooks)
 - **CSS** (flexbox, transitions, clean styling)
@@ -38,3 +38,20 @@ src/
 ├── ToDo.js # Main To-Do List component
 ├── index.js
 └── styles.css # Clean and aesthetic styles
+
+### Installation
+
+1. Clone the repository:
+   sh
+   git clone https://github.com/Suvethashreemanoj/React-movieSearch.git
+   cd React-movieSearch/frontend
+
+2. Install dependencies:
+   sh
+   npm install
+   
+
+### Running the App
+sh
+npm run dev
+
